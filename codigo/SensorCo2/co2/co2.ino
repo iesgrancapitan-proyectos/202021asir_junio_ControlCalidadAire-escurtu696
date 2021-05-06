@@ -5,11 +5,11 @@
 #include <SoftwareSerial.h>
 
 // WiFi configuration
-#define WLAN_SSID       "TP-Link_3D8A" 
-#define WLAN_PASS       "81845217" 
+#define WLAN_SSID       "iesgc112" 
+#define WLAN_PASS       "0123456789" 
 
 // MQTT configuration
-#define MQTT_SERVER      "PUT_YOUR_MQTT_SERVER_HERE" 
+#define MQTT_SERVER      "192.168.112.156" 
 #define MQTT_SERVERPORT  1883
 #define MQTT_USERNAME    ""
 #define MQTT_KEY         ""
@@ -30,8 +30,8 @@ Adafruit_MQTT_Publish tvocFeed = Adafruit_MQTT_Publish(&mqtt, MQTT_FEED_TVOC);
 
 //CO2 Sensor
 #define CO2_IN 10
-#define MH_Z19_RX D4  // D7
-#define MH_Z19_TX D0  // D6
+#define MH_Z19_RX RX  // D7
+#define MH_Z19_TX TX  // D6
 
 MHZ co2(MH_Z19_RX, MH_Z19_TX, CO2_IN, MHZ19B);
 

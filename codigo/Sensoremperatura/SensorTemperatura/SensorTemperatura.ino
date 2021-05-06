@@ -8,10 +8,10 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-#define WLAN_SSID       "TP-Link_3D8A" 
-#define WLAN_PASS       "81845217" 
+#define WLAN_SSID       "iesgc112" 
+#define WLAN_PASS       "0123456789" 
 
-#define MQTT_SERVER      "PUT_YOUR_MQTT_SERVER_HERE" 
+#define MQTT_SERVER      "192.168.112.156" 
 #define MQTT_SERVERPORT  1883
 #define MQTT_USERNAME    ""
 #define MQTT_KEY         ""
