@@ -10,7 +10,7 @@ El objetivo del proyecto es implementar una red IoT (Internet of Things) en dife
 
 Un uso apropiado y útil de este proyecto de IoT, por la situación de pandemia actual, es el de medir los niveles de CO2 en las diferentes aulas, y si los niveles se superan en base a unos valores predefinidos, enviar alertas para que se actúe de forma inmediata. La implementación de un medidor de CO2 (dióxido de carbono) consta de una una placa con un microcontrolador ESP8266, a la que están conectados los sensores, el del CO2, temperatura y humedad. Mediante esa placa lo que haremos es configurarla para que recoja los datos de los sensores de una forma periódica, cada minuto. Los sensores son clientes publicadores en un Broker MQTT, que recoge los datos para posteriormente enviarlos al agente Telegraf, y que a su vez inserta los valores recogidos en una base de datos temporal InfluxDB. Por último y mediante los datos de la base de datos temporal lo que se hará es generar unos gráficos mediante Grafana.
 
-Una vez hecho todo el despliegue y visto que funciona correctamente le añadiremos un sistema de avisos mediante correo electrónico, esto es por ejemplo si se llega a una situación en la que hay demasiado CO2 en el aula, se pueda notificar y hacer el cambio de clase. El cuadro que tenemos en cuenta para posteriormente ventilar o no ventilar la clase sería este.
+Una vez hecho todo el despliegue y visto que funciona correctamente le añadiremos un sistema de avisos mediante correo electrónico, esto es por ejemplo si se llega a una situación en la que hay demasiado CO2 en el aula, se pueda notificar y hacer el cambio de clase y ventilarlo.
 
 
 ## Autores
