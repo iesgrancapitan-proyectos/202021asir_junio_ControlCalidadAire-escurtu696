@@ -1,9 +1,9 @@
-# Panel de Administración de Sistema IoT Cloud para la monitorización y visualización
+# Sistema IoT Cloud para la monitorización y visualización
 
 ## Proyecto final C.F.G.S Administración Sistemas Informáticos en Red
 
 ## Introducción
-Con este proyecto lo que se intenta hacer es intentar ayudar a la pandemia del COVID-19 con un medidor casero medioambiental de CO2 y de temperatura, para así poder saber cuándo se tiene o no se tienen que ventilar las clases.
+Con este proyecto lo que se intenta hacer es intentar ayudar a la pandemia del COVID-19 con un medidor casero medioambiental de CO2 y de temperatura, para así poder saber cuándo se tiene o no se tienen que ventilar las clases. 
 
 ## Autores
 
